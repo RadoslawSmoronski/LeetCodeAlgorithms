@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Easy", "Easy", "{F820CE86-DBB9-4D7F-800B-880F05138EA1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCodeAlgorithms", "LeetCodeAlgorithms\LeetCodeAlgorithms.csproj", "{AB6CCC37-4804-424A-9133-CD8613C4B191}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoSum", "TwoSum\TwoSum.csproj", "{5047D953-B611-4D94-A61A-634559D145CE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCodeAlgorithms.Tests", "LeetCodeAlgorithms.Tests\LeetCodeAlgorithms.Tests.csproj", "{05C7E4FD-DEEA-48E7-834F-29A0CCE2FEC1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,15 +13,16 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5047D953-B611-4D94-A61A-634559D145CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5047D953-B611-4D94-A61A-634559D145CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5047D953-B611-4D94-A61A-634559D145CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5047D953-B611-4D94-A61A-634559D145CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB6CCC37-4804-424A-9133-CD8613C4B191}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB6CCC37-4804-424A-9133-CD8613C4B191}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB6CCC37-4804-424A-9133-CD8613C4B191}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB6CCC37-4804-424A-9133-CD8613C4B191}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05C7E4FD-DEEA-48E7-834F-29A0CCE2FEC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05C7E4FD-DEEA-48E7-834F-29A0CCE2FEC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05C7E4FD-DEEA-48E7-834F-29A0CCE2FEC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05C7E4FD-DEEA-48E7-834F-29A0CCE2FEC1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{5047D953-B611-4D94-A61A-634559D145CE} = {F820CE86-DBB9-4D7F-800B-880F05138EA1}
 	EndGlobalSection
 EndGlobal
